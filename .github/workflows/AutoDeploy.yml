@@ -33,4 +33,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name: Deploying using surge
-      run: surge ./ happyNewYearWish.surge.sh --token{{ secrets.SURGE_TOKEN }}
+      run: surge ./ happyNewYearWish.surge.sh --token ${{ secrets.SURGE_TOKEN }}
