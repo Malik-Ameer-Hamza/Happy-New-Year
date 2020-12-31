@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+.container {
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #b7c4d1;
+    }
+    50%{
+        background-color: rgb(122, 118, 118);
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
+
 *{
     margin: 0;
     padding: 0;
