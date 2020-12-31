@@ -27,10 +27,10 @@ jobs:
     - name: Installing Node
       run: actions/setup-node@v2-beta
       with:
-        node-version: 12
+          node-version: 12
 
       # Runs a set of commands using the runners shell
     - name: Installing Surge
       run: npm install --global surge
     - name: Deploying using surge
-      run: surge ./ http://happynewyearwish.surge.sh/ --token{{ secrets.SURGE_TOKEN }}
+      run: surge ./ happyNewYearWish.surge.sh --token{{ secrets.SURGE_TOKEN }}
