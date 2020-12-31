@@ -61,8 +61,8 @@ body{
 
 }
 .footer{
-    position: absolute;
-    top: 30rem;
+    position: relative;
+    top: 10rem;
     bottom: .5rem;
     left: 10rem;
     right: 10rem;
