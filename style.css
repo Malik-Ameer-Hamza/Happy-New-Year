@@ -61,8 +61,11 @@ body{
 
 }
 .footer{
-    position: fixed;
-    margin-top: 30rem;
+    position: absolute;
+    top: 30rem;
+    bottom: .5rem;
+    left: 10rem;
+    right: 10rem;
     text-align: center;
     font-size: 1.5rem;
     line-height: 4rem;
