@@ -60,6 +60,16 @@ body{
     margin-top: -1rem;
 
 }
+.footer h2{
+    position: fixed;
+    margin-top: 30rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    color: #333;
+    margin-top: -1rem;
+
+}
 .container h3{
     text-align: center;
     margin-top: 20rem;
