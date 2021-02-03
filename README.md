@@ -8,5 +8,5 @@ Here i created a web page to Wish You Happy New Year to you and your dears!
 
 To check out page 
 
-Go to page : happynewyearwish.surge.sh 
+Go to page :  http://happynewyearwish.surge.sh/ 
 
